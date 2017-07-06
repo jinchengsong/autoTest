@@ -29,6 +29,7 @@ public class MyWebDriveTest {
      driver.doPageSimultion(path+ "doTrans.json");
     }
     for(int i=3;i>=0;i--){
+     driver.setPersistentData();
      driver.doPageSimultion(path+ "doConfirm.json");
     }
     for(int i=3;i>=0;i--){

@@ -33,6 +33,7 @@ public class MyWebDrive {
 
  protected ChromeDriverService service;
  protected WebDriver driver;
+ /**持久化的数据*/
  protected Properties properties;
  protected static Logger log;
 
@@ -40,6 +41,10 @@ public class MyWebDrive {
  
  public HashMap<String,Object> getPersistentData() {
   return persistentData;
+ }
+
+ public void setPersistentData(HashMap persistentData) {
+  this.persistentData = persistentData;
  }
 
  public Properties getProperties() {

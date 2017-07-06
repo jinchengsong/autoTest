@@ -2,6 +2,7 @@ package com.jinhan.simultion.webDriver.utils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -31,7 +32,8 @@ public class StringUtil {
   // 现在创建 matcher 对象
   Matcher m = r.matcher(src);
   if (m.find()) {
-   src = m.replaceFirst(List2StrWithSpace(persistentData.get(m.group(2))));
+   List<String> datas = persistentData.get(m.group(2))== null?new ArrayList<String>():(List<String>)persistentData.get(m.group(2));
+   src = m.replaceFirst(List2StrWithSpace(datas));
    return replace(src,persistentData);
   }
   return src;
