@@ -1,0 +1,18 @@
+{
+	"url": "https://www.baidu.com/",
+	"handles": [
+		{
+			"action":"sendKey",
+			"cssSelector":"#kw",
+			"value": "1"
+		},
+		{
+			"action":"click",
+			"cssSelector":"#su"
+		},
+		{
+			"action":"click",
+			"cssSelector":"#u > a.lb"
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"url": "http://10.163.27.70/cddaGams/archives/common/trans/uf20TransferAction.do",
+	"handles": [
+		
+		{
+			"action": "click",
+			"cssSelector": "#transQuery"
+		},
+		{
+			"action": "sendKey",
+			"cssSelector": "#yug648_div",
+			"value": "成都市市本级社保局"
+		},
+		{
+			"action": "sendKey",
+			"cssSelector": "#yug647_div",
+			"value": "档案测试1"
+		},  
+		
+		{
+			"action": "checkbox",
+			"cssSelector": "input[type=\"checkbox\"]",
+			"method": "on",
+			"count": 4
+		},
+		{
+			"action": "click",
+			"cssSelector": "#transfer1"
+		},
+		{
+			"action": "attribute",
+			"cssSelector": "#q_yug641",
+			"method": "get",
+			"attribute": "value",
+			"clear": false
+		}
+	]
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<target>
+  <url>http://10.163.50.18:7043/cddaGams/archives/common/trans/uf20TransferAction.do</url>
+  <cookies>
+    <JSESSIONID>
+      pMzOc95-7z4Ynh78KNMiQ23IBg8K2sU-mZGvPKAKeeCATFVMklrl!710479078
+    </JSESSIONID>
+  </cookies>
+  <handles>
+    <handle>
+      <click>
+        <id>transQuery</id>
+      </click>
+    </handle>
+    <handle>
+      <sendKey>
+        <id>yug648_div</id>
+        <value>成都市本级社保局<value>
+      </sendKey>
+    </handle>
+    <handle>
+      <sendKey>
+        <id>yug647_div</id>
+        <value>社保市本级经办人<value>
+      </sendKey>
+    </handle>
+    <handle>
+      <checkboxOn>
+        <cssSelector>input[type="checkbox"]</cssSelector>
+        <count>4<count>
+      </checkboxOn>
+    </handle>
+    <handle>
+      <click>
+        <id>q_yug641</id>
+      </click>
+    </handle>
+    <handle>
+      <getAttribute>
+        <id>q_yug641</id>
+        <value>value</value>
+      </getAttribute>
+    </handle>
+  </handles>
+</target>

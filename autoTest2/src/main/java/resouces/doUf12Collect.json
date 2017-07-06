@@ -1,0 +1,21 @@
+{
+	"url": "http://10.163.27.70/cddaGams/archives/business/sort/uf12CollectAction.do",
+	"handles": [
+		{
+			"action": "sendKey",
+			"cssSelector": "#Yuf003",
+			"value": "${yuf003}"
+		},
+		{
+			"action": "click",
+			"cssSelector": "#complete"
+		},
+		{
+			"action": "attribute",
+			"cssSelector": "#yuf003",
+			"attribute": "value",
+			"name": "uf12yuf003",
+			"clear": false
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+    "url": "http://10.163.27.70/cddaGams/archives/common/trans/uf20ConfirmAction.do",  
+    "handles": [
+                
+        {
+            "action":"sendKey",
+            "cssSelector":"#yug641",
+            "value":"${#q_yug641}"
+        }, 
+        {
+            "action":"checkbox",
+            "cssSelector":"input[type=\"checkbox\"]", 
+            "method":"on",
+            "count": 4
+        }, 
+        {
+            "action":"click",
+            "cssSelector":"#confirm"
+        }
+    ]
+}

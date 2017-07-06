@@ -1,0 +1,23 @@
+{
+	"url": "http://10.163.50.18:7043/cddaGams/archives/common/store/uf12StoreAction.do",
+	"handles": [
+		{
+			"action": "execJs",
+			"cssSelector": "#addda",
+			"value": "(function (){Base.setValue('yuh701','10000569');Base.setValue('yuh751','001-A-3-4');Base.setValue('yuh750','10017193');Base.setEnable('uf12Yuf003');Base.focus('uf12Yuf003');fnGetYuh751();fnGetUf12List('4');var result = (function(){try{return Base,true; }catch(e){}}());if(result){Base.alert = function(){};}})()"
+		},
+		{
+			"action": "wait",
+			"value": 3000
+		},
+		{
+			"action": "sendKey",
+			"cssSelector": "#uf12Yuf003",
+			"value": "${uf12yuf003}"
+		},
+		{
+			"action": "click",
+			"cssSelector": "#finish"
+		}
+	]
+}

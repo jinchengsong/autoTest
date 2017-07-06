@@ -1,0 +1,27 @@
+{
+	"url": "http://10.163.27.70/cddaGams/archives/common/trans/uf11ReceiveAction.do",
+	"handles": [
+		{
+			"action": "sendKey",
+			"cssSelector": "#yug641",
+			"value": "${#q_yug641}"
+		},
+		{
+			"action": "checkbox",
+			"cssSelector": "input[type=\"checkbox\"]",
+			"method": "on",
+			"count": 4
+		},
+		{
+			"action": "click",
+			"cssSelector": "#confirm"
+		},
+		{
+			"action": "attribute",
+			"cssSelector": "div[class~='r1']",
+			"name": "yuf003",
+			"count": 4,
+			"attribute": "text"
+		}
+	]
+}

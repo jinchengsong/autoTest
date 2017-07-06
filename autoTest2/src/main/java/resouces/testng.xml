@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="档案自动化测试">
+    <test name="初级UI测试" preserve-order="true">
+        <classes>
+            <class name="com.jinhan.autoTest.CddaGamsTest">
+                <methods>
+                    <include name="openPortal" />
+                    <include name="jump2CddaGams" />
+                    <include name="doUf20Transfer" />
+                    <include name="doUf20Confirm" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,24 @@
+{
+ "url": "http://10.163.50.19:7049/casserver/login",
+ "handles": [
+  {
+   "action": "sendKey",
+   "cssSelector": "#username",
+   "value": "cdda3_test1"
+  },
+  {
+   "action": "sendKey",
+   "cssSelector": "#password",
+   "value": "cdda3_test1"
+  },
+  {
+   "action": "sendKey",
+   "cssSelector": "#vcode",
+   "value": "1"
+  },
+  {
+   "action": "click",
+   "cssSelector": "#doLogin"
+  }
+ ]
+}
